@@ -26,11 +26,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL             &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                           &mo 3      &kp N6  &kp N7  &kp N8    &kp N9    &kp N0         &kp MINUS
-&kp TAB               &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                                            &none      &kp Z   &kp U   &kp I     &kp P     &kp SEMICOLON  &kp BSLH
-&mt LEFT_CONTROL DQT  &kp A      &kp S     &kp D     &kp F      &kp G   &none         &kp LCTRL                 &kp LALT           &kp LGUI       &kp RCTRL              &none      &kp H   &kp J   &kp K     &kp L     &kp O          &mt RIGHT_CONTROL MINUS
-&kp LSHFT             &kp COMMA  &kp Y     &kp X     &kp C      &kp V                                           &kp HOME           &kp PG_UP                                        &kp B   &kp N   &kp M     &kp DOT   &kp FSLH       &kp RSHFT
-&mo 2                 &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 3 ESCAPE  &mt LEFT_SHIFT BACKSPACE  &kp LG(COLON)      &kp RG(COMMA)  &mt RIGHT_SHIFT ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT       &mo 2
+&kp EQUAL             &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                                    &mo 3      &kp N6  &kp N7  &kp N8    &kp N9    &kp N0         &kp MINUS
+&kp TAB               &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                                                     &none      &kp Z   &kp U   &kp I     &kp P     &kp SEMICOLON  &kp BSLH
+&mt LEFT_CONTROL DQT  &kp A      &kp S     &kp D     &kp F      &kp G   &none         &kp CAPSLOCK              &kp LG(LEFT_SHIFT)      &kp K_VOLUME_UP    &kp K_PLAY_PAUSE       &none      &kp H   &kp J   &kp K     &kp L     &kp O          &mt RIGHT_CONTROL MINUS
+&kp LSHFT             &kp COMMA  &kp Y     &kp X     &kp C      &kp V                                           &kp K_MUTE              &kp K_VOLUME_DOWN                                    &kp B   &kp N   &kp M     &kp DOT   &kp FSLH       &kp RSHFT
+&mo 2                 &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 3 ESCAPE  &mt LEFT_SHIFT BACKSPACE  &kp LEFT_CONTROL        &kp RCTRL          &mt RIGHT_SHIFT ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT       &mo 2
             >;
         };
 

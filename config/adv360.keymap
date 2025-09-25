@@ -73,9 +73,9 @@
             display-name = "Mod";
             bindings = <
 &none           &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &none                                                     &trans        &none             &none            &none              &none            &none                 &none
-&none           &none           &none             &none         &none          &none         &bootloader                                               &bootloader   &kp GREATER_THAN  &kp LESS_THAN    &kp SLASH          &kp LEFT_BRACE   &kp RIGHT_BRACE       &none
+&none           &none           &kp LG(W)         &none         &none          &none         &bootloader                                               &bootloader   &kp GREATER_THAN  &kp LESS_THAN    &kp SLASH          &kp LEFT_BRACE   &kp RIGHT_BRACE       &none
 &studio_unlock  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp RIGHT_GUI  &none         &none        &none  &none      &bt BT_CLR  &none          &stp STP_BAT  &kp LEFT          &kp DOWN_ARROW   &kp UP_ARROW       &kp RIGHT_ARROW  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&none           &none           &none             &none         &none          &none                             &none      &none                                    &kp HASH          &kp ASTERISK     &kp LEFT_BRACKET   &kp LS(EQUAL)    &kp LS(SLASH)         &kp TILDE
+&none           &none           &none             &kp LG(X)     &kp LG(C)      &kp LG(V)                         &none      &none                                    &kp HASH          &kp ASTERISK     &kp LEFT_BRACKET   &kp LS(EQUAL)    &kp LS(SLASH)         &kp TILDE
 &none           &none           &none             &none         &none                        &none        &none  &none      &none       &kp BACKSPACE  &kp SPACE                       &kp EXCLAMATION  &kp RIGHT_BRACKET  &none            &none                 &none
             >;
         };

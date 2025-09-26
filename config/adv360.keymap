@@ -17,6 +17,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        commaslash: commaslash {
+            compatible = "zmk,behavior-tap-dance";
+            label = "COMMASLASH";
+            #binding-cells = <0>;
+            bindings = <&kp COMMA>, <&kp SLASH>;
+
+            tapping-term-ms = <130>;
+        };
     };
 
     combos {
@@ -39,11 +48,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp BACKSLASH              &kp N1     &kp N2  &kp N3   &kp N4         &kp N5  &tog 1                                                                                                &mo 3      &kp N6  &kp N7      &kp N8       &kp N9   &kp N0     &none
-&kp PIPE                   &kp Q      &kp W   &kp E    &kp R          &kp T   &none                                                                                                 &none      &kp Z   &kp U       &kp I        &kp P    &kp EQUAL  &kp DELETE
-&mt LEFT_GUI DQT           &kp A      &kp S   &kp D    &kp F          &kp G   &none         &kp CAPSLOCK          &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE       &none      &kp H   &kp J       &kp K        &kp L    &kp O      &mt RIGHT_GUI COLON
-&mt LEFT_ALT SINGLE_QUOTE  &kp MINUS  &kp Y   &lt 1 X  &kp C          &kp V                                       &kp C_MUTE              &kp C_VOLUME_DOWN                                    &kp B   &kp N       &kp M        &kp DOT  &kp COMMA  &mt RIGHT_ALT GRAVE
-&mo 2                      &none      &none   &kp TAB  &kp AMPERSAND          &lt 3 ESCAPE  &mt LEFT_SHIFT SLASH  &kp LEFT_CONTROL        &kp RCTRL          &mt RIGHT_SHIFT ENTER  &kp SPACE          &kp DOLLAR  &kp PERCENT  &none    &none      &mo 2
+&kp BACKSLASH              &kp N1         &kp N2  &kp N3   &kp N4         &kp N5  &tog 1                                                                                                    &mo 3      &kp N6  &kp N7      &kp N8       &kp N9   &kp N0       &none
+&kp PIPE                   &kp Q          &kp W   &kp E    &kp R          &kp T   &none                                                                                                     &none      &kp Z   &kp U       &kp I        &kp P    &kp EQUAL    &kp MINUS
+&mt LEFT_GUI DQT           &kp A          &kp S   &kp D    &kp F          &kp G   &none         &kp CAPSLOCK              &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE       &none      &kp H   &kp J       &kp K        &kp L    &kp O        &mt RIGHT_GUI COLON
+&mt LEFT_ALT SINGLE_QUOTE  &kp BACKSPACE  &kp Y   &lt 1 X  &kp C          &kp V                                           &kp C_MUTE              &kp C_VOLUME_DOWN                                    &kp B   &kp N       &kp M        &kp DOT  &commaslash  &mt RIGHT_ALT GRAVE
+&mo 2                      &none          &none   &kp TAB  &kp AMPERSAND          &lt 3 ESCAPE  &mt LEFT_SHIFT BACKSPACE  &kp LEFT_CONTROL        &kp RCTRL          &mt RIGHT_SHIFT ENTER  &kp SPACE          &kp DOLLAR  &kp PERCENT  &none    &none        &mo 2
             >;
         };
 

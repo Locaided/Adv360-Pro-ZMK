@@ -35,19 +35,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        fd-delete {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <32 31>;
-        };
-
-        jk-delete {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <40 41>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";

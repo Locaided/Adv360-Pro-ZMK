@@ -43,11 +43,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp BACKSLASH     &kp N1     &kp N2        &kp N3   &kp N4         &kp N5  &tog 1                                                                                                        &mo 3      &kp N6  &kp N7      &kp N8       &kp N9    &kp N0     &none
-&kp PIPE          &kp Q      &kp W         &kp E    &kp R          &kp T   &none                                                                                                         &none      &kp Z   &kp U       &kp I        &kp P     &kp EQUAL  &kp MINUS
-&kp BACKSPACE     &kp A      &kp S         &kp D    &kp F          &kp G   &none         &kp CAPSLOCK                  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE       &none      &kp H   &kp J       &kp K        &kp L     &kp O      &mt RIGHT_GUI COLON
-&kp SINGLE_QUOTE  &kp COMMA  &kp Y         &kp X    &kp C          &kp V                                               &kp C_MUTE              &kp C_VOLUME_DOWN                                    &kp B   &kp N       &kp M        &kp DOT   &kp SLASH  &kp GRAVE
-&mo 2             &none      &sk LEFT_GUI  &kp TAB  &kp AMPERSAND          &lt 3 ESCAPE  &mt LEFT_SHIFT DOUBLE_QUOTES  &ctrlgui                &ctrlgui           &mt RIGHT_SHIFT ENTER  &kp SPACE          &kp DOLLAR  &kp PERCENT  &sk RALT  &none      &mo 2
+&kp BACKSLASH  &kp N1     &kp N2        &kp N3   &kp N4         &kp N5  &tog 1                                                                                                        &mo 3      &kp N6  &kp N7      &kp N8       &kp N9    &kp N0     &none
+&kp PIPE       &kp Q      &kp W         &kp E    &kp R          &kp T   &none                                                                                                         &none      &kp Z   &kp U       &kp I        &kp P     &kp EQUAL  &kp MINUS
+&kp BACKSPACE  &kp A      &kp S         &kp D    &kp F          &kp G   &none         &kp CAPSLOCK                  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE       &none      &kp H   &kp J       &kp K        &kp L     &kp O      &kp GRAVE
+&kp COLON      &kp COMMA  &kp Y         &kp X    &kp C          &kp V                                               &kp C_MUTE              &kp C_VOLUME_DOWN                                    &kp B   &kp N       &kp M        &kp DOT   &kp SLASH  &kp SINGLE_QUOTE
+&mo 2          &none      &sk LEFT_GUI  &kp TAB  &kp AMPERSAND          &lt 3 ESCAPE  &mt LEFT_SHIFT DOUBLE_QUOTES  &ctrlgui                &ctrlgui           &mt RIGHT_SHIFT ENTER  &kp SPACE          &kp DOLLAR  &kp PERCENT  &sk RALT  &none      &mo 2
             >;
         };
 

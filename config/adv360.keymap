@@ -76,11 +76,11 @@
         mod {
             display-name = "Mod";
             bindings = <
-&none           &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_SEL 4  &none                                                 &trans        &none             &none           &kp LG(Z)        &none             &none                 &none
-&none           &kp LG(Q)       &kp LG(W)         &kp LG(S)          &kp LG(R)          &kp LG(T)     &bootloader                                           &bootloader   &kp LESS_THAN     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LS(MINUS)
-&studio_unlock  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT       &kp RIGHT_GUI      &kp LG(F)     &none        &none  &none      &bt BT_CLR  &none      &stp STP_BAT  &kp LEFT          &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&none           &kp LG(N)       &kp LG(L)         &kp LG(X)          &kp LG(C)          &kp LG(V)                         &none      &none                                &kp GREATER_THAN  &kp ASTERISK    &kp SEMI         &kp LS(DOT)       &kp LS(SLASH)         &kp LS(NUMBER_6)
-&none           &none           &none             &kp LA(BACKSPACE)  &kp LG(BACKSPACE)                &none        &none  &none      &kp DELETE  &kp ENTER  &kp SPACE                       &kp HASH        &kp EXCLAMATION  &none             &none                 &none
+&none           &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_SEL 4  &none                                                 &trans        &none             &none           &kp LG(Z)        &none             &none                  &none
+&none           &kp LG(Q)       &kp LG(W)         &kp LG(S)          &kp LG(R)          &kp LG(T)     &bootloader                                           &bootloader   &kp LESS_THAN     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp LS(MINUS)
+&studio_unlock  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT       &kp RIGHT_GUI      &kp LG(F)     &none        &none  &none      &bt BT_CLR  &none      &stp STP_BAT  &kp LEFT          &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS
+&none           &kp LG(N)       &kp LG(L)         &kp LG(X)          &kp LG(C)          &kp LG(V)                         &none      &none                                &kp GREATER_THAN  &kp ASTERISK    &kp SEMI         &kp LG(SPACE)     &kp RIGHT_PARENTHESIS  &kp LS(NUMBER_6)
+&none           &none           &none             &kp LA(BACKSPACE)  &kp LG(BACKSPACE)                &none        &none  &none      &kp DELETE  &kp ENTER  &kp SPACE                       &kp HASH        &kp EXCLAMATION  &kp HASH          &none                  &none
             >;
         };
 

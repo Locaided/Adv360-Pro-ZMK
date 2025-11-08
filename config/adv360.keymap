@@ -43,11 +43,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp BACKSLASH  &kp N1     &kp N2        &kp N3   &kp N4         &kp N5  &tog 1                                                                                                        &mo 3      &kp N6  &kp N7      &kp N8       &kp N9    &kp N0     &none
-&kp PIPE       &kp Q      &kp W         &kp E    &kp R          &kp T   &none                                                                                                         &none      &kp Z   &kp U       &kp I        &kp P     &kp EQUAL  &kp MINUS
-&kp BACKSPACE  &kp A      &kp S         &kp D    &kp F          &kp G   &none         &kp CAPSLOCK                  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE       &none      &kp H   &kp J       &kp K        &kp L     &kp O      &kp GRAVE
-&kp COLON      &kp COMMA  &kp Y         &kp X    &kp C          &kp V                                               &kp C_MUTE              &kp C_VOLUME_DOWN                                    &kp B   &kp N       &kp M        &kp DOT   &kp SLASH  &kp SINGLE_QUOTE
-&mo 2          &none      &sk LEFT_GUI  &kp TAB  &kp AMPERSAND          &lt 3 ESCAPE  &mt LEFT_SHIFT DOUBLE_QUOTES  &ctrlgui                &ctrlgui           &mt RIGHT_SHIFT ENTER  &kp SPACE          &kp DOLLAR  &kp PERCENT  &sk RALT  &none      &mo 2
+&none          &kp N1     &kp N2  &kp N3   &kp N4         &kp N5  &tog 1                                                                                                        &mo 3      &kp N6  &kp N7      &kp N8       &kp N9    &kp N0     &none
+&kp PIPE       &kp Q      &kp W   &kp E    &kp R          &kp T   &none                                                                                                         &none      &kp Z   &kp U       &kp I        &kp P     &kp EQUAL  &kp GRAVE
+&kp BACKSPACE  &kp A      &kp S   &kp D    &kp F          &kp G   &none         &kp CAPSLOCK                  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE       &none      &kp H   &kp J       &kp K        &kp L     &kp O      &kp MINUS
+&kp SQT        &kp COMMA  &kp Y   &kp X    &kp C          &kp V                                               &kp C_MUTE              &kp C_VOLUME_DOWN                                    &kp B   &kp N       &kp M        &kp DOT   &kp SLASH  &sk LEFT_GUI
+&mo 2          &none      &none   &kp TAB  &kp AMPERSAND          &lt 3 ESCAPE  &mt LEFT_SHIFT DOUBLE_QUOTES  &ctrlgui                &ctrlgui           &mt RIGHT_SHIFT ENTER  &kp SPACE          &kp DOLLAR  &kp PERCENT  &sk RALT  &none      &mo 2
             >;
         };
 
@@ -76,11 +76,11 @@
         mod {
             display-name = "Mod";
             bindings = <
-&none           &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_SEL 4  &none                                                 &trans        &none             &none           &kp LG(Z)        &none             &none                  &none
-&none           &kp LG(Q)       &kp LG(W)         &kp LG(S)          &kp LG(R)          &kp LG(T)     &bootloader                                           &bootloader   &kp LESS_THAN     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp LS(MINUS)
-&studio_unlock  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT       &kp RIGHT_GUI      &kp LG(F)     &none        &none  &none      &bt BT_CLR  &none      &stp STP_BAT  &kp LEFT          &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS
-&none           &kp LG(N)       &kp LG(L)         &kp LG(X)          &kp LG(C)          &kp LG(V)                         &none      &none                                &kp GREATER_THAN  &kp ASTERISK    &kp SEMI         &kp LG(SPACE)     &kp RIGHT_PARENTHESIS  &kp LS(NUMBER_6)
-&none           &none           &none             &kp LA(BACKSPACE)  &kp LG(BACKSPACE)                &none        &none  &none      &kp DELETE  &kp ENTER  &kp SPACE                       &kp HASH        &kp EXCLAMATION  &kp HASH          &none                  &none
+&none           &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_SEL 4  &none                                                 &trans        &none             &none           &kp LG(Z)        &none                 &none                  &none
+&none           &kp LG(Q)       &kp LG(W)         &kp LG(S)          &kp LG(R)          &kp LG(T)     &bootloader                                           &bootloader   &kp LESS_THAN     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
+&studio_unlock  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT       &kp RIGHT_GUI      &kp LG(F)     &none        &none  &none      &bt BT_CLR  &none      &stp STP_BAT  &kp LEFT          &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW       &kp LEFT_PARENTHESIS   &kp LG(SPACE)
+&none           &kp LG(N)       &kp LG(L)         &kp LG(X)          &kp LG(C)          &kp LG(V)                         &none      &none                                &kp GREATER_THAN  &kp ASTERISK    &kp SEMI         &kp COLON             &kp RIGHT_PARENTHESIS  &kp LS(NUMBER_6)
+&none           &none           &none             &kp LA(BACKSPACE)  &kp LG(BACKSPACE)                &none        &none  &none      &kp DELETE  &kp ENTER  &kp SPACE                       &kp HASH        &kp EXCLAMATION  &kp NON_US_BACKSLASH  &none                  &none
             >;
         };
 

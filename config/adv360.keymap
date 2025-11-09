@@ -76,11 +76,11 @@
         mod {
             display-name = "Mod";
             bindings = <
-&none       &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3   &bt BT_SEL 4  &none                                                 &trans        &kp LA(NUMBER_6)  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &kp LA(N0)  &none
-&none       &none           &none              &none              &none          &none         &bootloader                                           &bootloader   &none             &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp EXCL              &none       &kp PIPE
-&kp DELETE  &kp LEFT_SHIFT  &kp LEFT_CONTROL   &kp LEFT_ALT       &kp RIGHT_GUI  &none         &none        &none  &none      &bt BT_CLR  &none      &stp STP_BAT  &kp LEFT          &kp DOWN_ARROW   &kp UP_ARROW           &kp RIGHT_ARROW       &none       &none
-&none       &none           &kp LA(BACKSPACE)  &kp LG(BACKSPACE)  &kp LG(C)      &kp LG(V)                         &none      &none                                &kp HASH          &kp ASTERISK     &kp SEMI               &kp COLON             &none       &kp LS(NUMBER_6)
-&none       &none           &none              &none              &none                        &none        &none  &none      &none       &kp ENTER  &kp SPACE                       &kp LESS_THAN    &kp GREATER_THAN       &kp NON_US_BACKSLASH  &none       &none
+&none       &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3   &bt BT_SEL 4  &none                                                 &trans        &none     &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp BACKSLASH     &kp LA(N0)         &kp LA(NUMBER_1)
+&none       &none           &none              &none              &none          &none         &bootloader                                           &bootloader   &kp PIPE  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp EXCL          &kp RIGHT_BRACKET  &kp LA(NUMBER_2)
+&kp DELETE  &kp LEFT_SHIFT  &kp LEFT_CONTROL   &kp LEFT_ALT       &kp RIGHT_GUI  &none         &none        &none  &none      &bt BT_CLR  &none      &stp STP_BAT  &kp LEFT  &kp DOWN_ARROW   &kp UP_ARROW           &kp RIGHT_ARROW   &kp LEFT_BRACKET   &kp LA(NUMBER_3)
+&none       &none           &kp LA(BACKSPACE)  &kp LG(BACKSPACE)  &kp LG(C)      &kp LG(V)                         &none      &none                                &kp HASH  &kp ASTERISK     &kp SEMI               &kp COLON         &none              &kp LA(NUMBER_4)
+&none       &none           &none              &none              &none                        &none        &none  &none      &none       &kp ENTER  &kp SPACE               &kp LESS_THAN    &kp GREATER_THAN       &kp LS(NUMBER_6)  &none              &none
             >;
         };
 

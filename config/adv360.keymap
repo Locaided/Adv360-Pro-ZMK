@@ -43,11 +43,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&none          &kp N1     &kp N2  &kp N3   &kp N4         &kp N5  &tog 1                                                                                                        &mo 3      &kp N6  &kp N7      &kp N8       &kp N9    &kp N0     &none
-&kp GRAVE      &kp Q      &kp W   &kp E    &kp R          &kp T   &none                                                                                                         &none      &kp Z   &kp U       &kp I        &kp P     &kp EQUAL  &kp GRAVE
-&kp BACKSPACE  &kp A      &kp S   &kp D    &kp F          &kp G   &none         &kp CAPSLOCK                  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE       &none      &kp H   &kp J       &kp K        &kp L     &kp O      &kp MINUS
-&kp SQT        &kp COMMA  &kp Y   &kp X    &kp C          &kp V                                               &kp C_MUTE              &kp C_VOLUME_DOWN                                    &kp B   &kp N       &kp M        &kp DOT   &kp SLASH  &sk LEFT_GUI
-&mo 2          &none      &none   &kp TAB  &kp AMPERSAND          &lt 3 ESCAPE  &mt LEFT_SHIFT DOUBLE_QUOTES  &ctrlgui                &ctrlgui           &mt RIGHT_SHIFT ENTER  &kp SPACE          &kp DOLLAR  &kp PERCENT  &sk RALT  &none      &mo 2
+&none          &kp N1     &kp N2  &kp N3   &kp N4         &kp N5  &tog 1                                                                                                        &mo 3          &kp N6  &kp N7      &kp N8       &kp N9   &kp N0     &none
+&none          &kp Q      &kp W   &kp E    &kp R          &kp T   &none                                                                                                         &none          &kp Z   &kp U       &kp I        &kp P    &kp EQUAL  &kp GRAVE
+&kp BACKSPACE  &kp A      &kp S   &kp D    &kp F          &kp G   &kp LEFT_ALT  &kp CAPSLOCK                  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE       &sk RIGHT_GUI  &kp H   &kp J       &kp K        &kp L    &kp O      &kp MINUS
+&kp SQT        &kp COMMA  &kp Y   &kp X    &kp C          &kp V                                               &kp C_MUTE              &kp C_VOLUME_DOWN                                        &kp B   &kp N       &kp M        &kp DOT  &kp SLASH  &none
+&mo 2          &none      &none   &kp TAB  &kp AMPERSAND          &lt 3 ESCAPE  &mt LEFT_SHIFT DOUBLE_QUOTES  &ctrlgui                &ctrlgui           &mt RIGHT_SHIFT ENTER  &kp SPACE              &kp DOLLAR  &kp PERCENT  &none    &none      &mo 2
             >;
         };
 
@@ -79,7 +79,7 @@
 &none       &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3   &bt BT_SEL 4  &none                                                 &trans        &kp LA(NUMBER_6)  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp BACKSLASH     &none              &none
 &none       &none           &none              &none              &none          &none         &bootloader                                           &bootloader   &kp PIPE          &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp EXCL          &kp RIGHT_BRACKET  &none
 &kp DELETE  &kp LEFT_SHIFT  &kp LEFT_CONTROL   &kp LEFT_ALT       &kp RIGHT_GUI  &none         &none        &none  &none      &bt BT_CLR  &none      &stp STP_BAT  &kp LEFT          &kp DOWN_ARROW   &kp UP_ARROW           &kp RIGHT_ARROW   &kp LEFT_BRACKET   &none
-&none       &none           &kp LA(BACKSPACE)  &kp LG(BACKSPACE)  &kp LG(C)      &kp LG(V)                         &none      &none                                &kp HASH          &kp ASTERISK     &kp SEMI               &kp COLON         &kp LG(SPACE)      &none
+&none       &none           &kp LA(BACKSPACE)  &kp LG(BACKSPACE)  &kp LG(C)      &kp LG(V)                         &none      &none                                &kp HASH          &kp ASTERISK     &kp SEMI               &kp COLON         &none              &none
 &none       &none           &none              &none              &none                        &none        &none  &none      &none       &kp ENTER  &kp SPACE                       &kp LESS_THAN    &kp GREATER_THAN       &kp LS(NUMBER_6)  &none              &none
             >;
         };

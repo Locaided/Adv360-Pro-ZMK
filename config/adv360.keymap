@@ -8,14 +8,18 @@
         #include "macros.dtsi"
       #include "version.dtsi"
 
-        hm: homerow_mods {
+        homerowLeft: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <175>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <7 21 39 37 53 7 8 9 10 11 12 13 21 22 23 24 25 26 27 38 39 40 41 42 43 44 45 54 55 56 57 58 59 71 72 73 74 75 37 38 53 69 70 68>;
+            quick-tap-ms = <300>;
+            hold-trigger-on-release;
+            require-prior-idle-ms = <230>;
         };
 
         commaslash: commaslash {
@@ -33,6 +37,20 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_CONTROL>, <&kp RIGHT_GUI>;
         };
+
+        howerowRight: howerowRight {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOWEROWRIGHT";
+            #binding-cells = <2>;
+            tapping-term-ms = <250>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+
+            quick-tap-ms = <300>;
+            hold-trigger-on-release;
+            require-prior-idle-ms = <230>;
+            hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 35 36 46 47 48 49 50 51 52 60 61 62 63 64 65 66 67>;
+        };
     };
 
     combos { compatible = "zmk,combos"; };
@@ -43,11 +61,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp LA(NUMBER_4)  &kp N1     &kp N2  &kp N3   &kp N4            &kp N5  &tog 1                                                                                          &mo 3          &kp N6  &kp N7             &kp N8  &kp N9   &kp N0     &sk RIGHT_ALT
-&kp LA(NUMBER_2)  &kp Q      &kp W   &kp E    &kp R             &kp T   &kp LA(NUMBER_6)                                                                                &kp LA(N7)     &kp Z   &kp U              &kp I   &kp P    &kp EQUAL  &kp MINUS
-&kp ESCAPE        &kp A      &kp S   &kp D    &mt LEFT_SHIFT F  &kp G   &kp LA(NUMBER_1)  &kp CAPSLOCK  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE     &kp LG(SPACE)  &kp H   &mt RIGHT_SHIFT J  &kp K   &kp L    &kp O      &kp DOUBLE_QUOTES
-&kp SQT           &kp COMMA  &kp Y   &kp X    &kp C             &kp V                                   &kp C_MUTE              &kp C_VOLUME_DOWN                                      &kp B   &kp N              &kp M   &kp DOT  &kp SLASH  &kp GRAVE
-&mo 2             &none      &none   &kp TAB  &sk LEFT_SHIFT            &kp BACKSPACE     &sl 3         &sk LCTRL               &sk RCTRL          &mt RIGHT_GUI ENTER  &kp SPACE              &sk RIGHT_SHIFT    &none   &none    &none      &mo 2
+&kp LA(NUMBER_4)  &kp N1     &kp N2  &kp N3   &kp N4                     &kp N5  &tog 1                                                                                          &mo 3          &kp N6  &kp N7                       &kp N8  &kp N9   &kp N0     &sk RIGHT_ALT
+&kp LA(NUMBER_2)  &kp Q      &kp W   &kp E    &kp R                      &kp T   &kp LA(NUMBER_6)                                                                                &kp LA(N7)     &kp Z   &kp U                        &kp I   &kp P    &kp EQUAL  &kp MINUS
+&kp ESCAPE        &kp A      &kp S   &kp D    &homerowLeft LEFT_SHIFT F  &kp G   &kp LA(NUMBER_1)  &kp CAPSLOCK  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE     &kp LG(SPACE)  &kp H   &howerowRight RIGHT_SHIFT J  &kp K   &kp L    &kp O      &kp DOUBLE_QUOTES
+&kp SQT           &kp COMMA  &kp Y   &kp X    &kp C                      &kp V                                   &kp C_MUTE              &kp C_VOLUME_DOWN                                      &kp B   &kp N                        &kp M   &kp DOT  &kp SLASH  &kp GRAVE
+&mo 2             &none      &none   &kp TAB  &sk LEFT_SHIFT                     &kp BACKSPACE     &sl 3         &sk LCTRL               &sk RCTRL          &mt RIGHT_GUI ENTER  &kp SPACE              &sk RIGHT_SHIFT              &none   &none    &none      &mo 2
             >;
         };
 

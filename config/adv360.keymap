@@ -65,7 +65,7 @@
 &kp LA(NUMBER_2)  &kp Q      &kp W   &kp E    &kp R                      &kp T   &kp LA(NUMBER_6)                                                                                &kp LA(N7)     &kp Z   &kp U                        &kp I   &kp P    &kp EQUAL  &kp MINUS
 &kp SQT           &kp A      &kp S   &kp D    &homerowLeft LEFT_SHIFT F  &kp G   &kp LA(NUMBER_1)  &kp CAPSLOCK  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE     &kp LG(SPACE)  &kp H   &howerowRight RIGHT_SHIFT J  &kp K   &kp L    &kp O      &kp MINUS
 &kp SQT           &kp COMMA  &kp Y   &kp X    &kp C                      &kp V                                   &kp C_MUTE              &kp C_VOLUME_DOWN                                      &kp B   &kp N                        &kp M   &kp DOT  &kp SLASH  &kp GRAVE
-&mo 2             &none      &none   &kp TAB  &sk ESCAPE                         &kp BACKSPACE     &sl 3         &sk LCTRL               &sk RCTRL          &mt RIGHT_GUI ENTER  &kp SPACE              &kp DOUBLE_QUOTES            &none   &none    &none      &mo 2
+&mo 2             &none      &none   &kp TAB  &sk DOUBLE_QUOTES                  &kp BACKSPACE     &sl 3         &sk LCTRL               &sk RCTRL          &mt RIGHT_GUI ENTER  &kp SPACE              &kp ESCAPE                   &none   &none    &none      &mo 2
             >;
         };
 

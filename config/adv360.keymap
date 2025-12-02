@@ -59,7 +59,7 @@
             bindings = <
 &kp LA(NUMBER_4)  &kp N1     &kp N2  &kp N3                     &kp N4     &kp N5  &tog 1                                                                                          &mo 3          &kp N6  &kp N7             &kp N8  &kp N9                            &kp N0     &none
 &kp LA(NUMBER_2)  &kp Q      &kp W   &kp E                      &kp R      &kp T   &kp LA(NUMBER_6)                                                                                &kp LA(N7)     &kp Z   &kp U              &kp I   &kp P                             &kp EQUAL  &kp RIGHT_ALT
-&mt LCTRL ESCAPE  &kp A      &kp S   &kp D                      &kp F      &kp G   &kp LA(NUMBER_1)  &kp CAPSLOCK  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE     &kp LG(SPACE)  &kp H   &kp J              &kp K   &kp L                             &kp O      &sl 1
+&kp ESCAPE        &kp A      &kp S   &kp D                      &kp F      &kp G   &kp LA(NUMBER_1)  &kp CAPSLOCK  &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE     &kp LG(SPACE)  &kp H   &kp J              &kp K   &kp L                             &kp O      &sl 1
 &kp SQT           &kp COMMA  &kp Y   &homerowLeft LEFT_SHIFT X  &kp C      &kp V                                   &kp C_MUTE              &kp C_VOLUME_DOWN                                      &kp B   &kp N              &kp M   &howerowRight RIGHT_SHIFT PERIOD  &kp SLASH  &kp GRAVE
 &mo 2             &none      &none   &kp TAB                    &kp MINUS          &kp BACKSPACE     &sl 3         &sk LCTRL               &sk RCTRL          &mt RIGHT_GUI ENTER  &kp SPACE              &kp DOUBLE_QUOTES  &none   &none                             &none      &mo 2
             >;

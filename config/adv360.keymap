@@ -90,11 +90,11 @@
         mod {
             display-name = "Mod";
             bindings = <
-&none  &none      &none           &none         &none          &none      &none                                                       &trans        &kp LS(NUMBER_6)  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp BACKSLASH    &none             &none
-&none  &kp Q      &kp W           &kp E         &kp R          &kp T      &bootloader                                                 &bootloader   &kp PIPE          &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp EXCL         &kp LESS_THAN     &kp GREATER_THAN
-&none  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI   &kp G      &none          &none  &none      &bt BT_CLR  &none          &stp STP_BAT  &kp LEFT          &kp DOWN_ARROW   &kp UP_ARROW           &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&none  &kp COMMA  &kp Y           &kp AT_SIGN   &kp LG(C)      &kp LG(V)                        &none      &none                                    &kp HASH          &kp ASTERISK     &kp SEMI               &kp COLON        &kp QUESTION      &kp GREATER_THAN
-&none  &none      &none           &none         &kp AMPERSAND             &kp BACKSPACE  &none  &none      &kp DELETE  &kp LS(ENTER)  &kp SPACE                       &kp DOLLAR       &kp PERCENT            &none            &none             &none
+&none  &none      &none           &none         &none          &none        &none                                                                  &trans        &kp LS(NUMBER_6)  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp BACKSLASH    &none             &none
+&none  &kp Q      &kp W           &kp E         &kp R          &kp T        &bootloader                                                            &bootloader   &kp PIPE          &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp EXCL         &kp LESS_THAN     &kp GREATER_THAN
+&none  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp AMPERSAND  &kp AT_SIGN  &none          &none             &none      &bt BT_CLR  &none          &stp STP_BAT  &kp LEFT          &kp DOWN_ARROW   &kp UP_ARROW           &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&none  &kp COMMA  &kp Y           &kp LG(X)     &kp LG(C)      &kp LG(V)                                     &none      &none                                    &kp HASH          &kp ASTERISK     &kp SEMI               &kp COLON        &kp QUESTION      &kp GREATER_THAN
+&none  &none      &none           &none         &kp LG(F)                   &kp BACKSPACE  &kp LEFT_COMMAND  &none      &kp DELETE  &kp LS(ENTER)  &kp SPACE                       &kp DOLLAR       &kp PERCENT            &none            &none             &none
             >;
         };
 

@@ -56,8 +56,8 @@
             flavor = "hold-preferred";
             bindings = <&sl>, <&kp>;
 
-            quick-tap-ms = <300>;
-            hold-trigger-key-positions = <26 25 24 23 22 40 41 42 43 44 56 55 57 58>;
+            quick-tap-ms = <350>;
+            hold-trigger-key-positions = <26 25 24 23 22 40 41 42 43 44 56 55 57 58 8 9 10 11 12 13 27 45 59 75 74 73 72 71 54>;
         };
     };
 

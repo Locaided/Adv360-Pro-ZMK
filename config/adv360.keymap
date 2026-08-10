@@ -69,7 +69,7 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp LA(NUMBER_4)    &kp TAB    &kp N2  &kp LESS_THAN     &kp GREATER_THAN  &kp N5  &tog 1                                                                                                                               &mo 3             &kp N6  &kp SQT         &kp AMPERSAND      &kp N9   &kp LG(SPACE)  &kp LA(LG(SPACE))
+&kp LA(NUMBER_4)    &kp TAB    &kp N2  &kp LESS_THAN     &kp GREATER_THAN  &kp N5  &tog 1                                                                                                                               &mo 3             &kp N6  &kp SQT         &kp AMPERSAND      &kp N9   &kp LG(SPACE)  &kp LA(N8)
 &kp LA(NUMBER_1)    &kp Q      &kp W   &kp E             &kp R             &kp T   &kp LA(N9)                                                                                                                           &kp LA(N7)        &kp Z   &kp U           &kp I              &kp P    &kp EQUAL      &kp SQT
 &kp DOUBLE_QUOTES   &kp A      &kp S   &kp D             &kp F             &kp G   &kp LA(NUMBER_6)                  &kp CAPSLOCK           &kp LG(LEFT_SHIFT)      &kp C_VOL_UP       &kp C_PLAY_PAUSE                 &kp LA(NUMBER_2)  &kp H   &kp J           &kp K              &kp L    &kp O          &sl 1
 &mt LEFT_GUI GRAVE  &kp COMMA  &kp Y   &kp X             &kp C             &kp V                                                            &kp C_MUTE              &kp C_VOLUME_DOWN                                                     &kp B   &kp N           &kp M              &kp DOT  &kp SLASH      &mt RIGHT_GUI SEMICOLON
